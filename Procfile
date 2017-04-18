@@ -1,0 +1,1 @@
+web: gunicorn --pythonpath csuibot csuibot.main:app --preload
