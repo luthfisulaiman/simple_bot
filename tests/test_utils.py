@@ -222,6 +222,38 @@ class TestChineseZodiac:
 
     # Implement the mandatory task in here
 
+    def test_buffalo(self):
+        years = [1997, 1985, 1973, 1961, 2009, 2021]
+        self.run_test('buffalo', years)
+
+    def test_tiger(self):
+        years = [1998, 1986, 1974, 1962, 2010, 2022]
+        self.run_test('tiger', years)
+
+    def test_rabbit(self):
+        years = [1999, 1987, 1975, 1963, 2011, 2023]
+        self.run_test('rabbit', years)
+
+    def test_dragon(self):
+        years = [2000, 1988, 1976, 1964, 2012, 2024]
+        self.run_test('dragon', years)
+
+    def test_snake(self):
+        years = [2001, 1989, 1977, 1965, 2013, 2025]
+        self.run_test('snake', years)
+
+    def test_horse(self):
+        years = [2002, 1990, 1978, 1966, 2014, 2026]
+        self.run_test('horse', years)
+
+    def test_goat(self):
+        years = [2003, 1991, 1979, 1967, 2015, 2027]
+        self.run_test('goat', years)
+
+    def test_monkey(self):
+        years = [2004, 1992, 1980, 1968, 2016, 2028]
+        self.run_test('monkey', years)
+
     def test_unknown_zodiac(self):
         years = [2005, 1993, 1981, 1969, 2017, 2029]
         self.run_test('Unknown chinese zodiac', years)
