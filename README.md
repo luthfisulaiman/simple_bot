@@ -87,8 +87,8 @@ by the linter
 
 ## Additional Checklist
 
-- [ ] All unit tests except `test_get_index` pass succesfully
-- [ ] Linter does not produce any complaints when run on `master`
+- [X] All unit tests except `test_get_index` pass succesfully
+- [X] Linter does not produce any complaints when run on `master`
 branch
 - [ ] Deploy the bot on Heroku 
 - [ ] The bot can respond to valid input when given zodiac & shio
