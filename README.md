@@ -73,17 +73,17 @@ See [ADDITIONAL.md](ADDITIONAL.md).
 
 ## Mandatory Checklist
 
-- [ ] (For repository owner) Create a fork from the template repository
-- [ ] (For collaborators) Has Developer role in partner's repository
+- [X] (For repository owner) Create a fork from the template repository
+- [X] (For collaborators) Has Developer role in partner's repository
     - Tips: To make your demo session more convenient, bring your
     partners (i.e. repository owner and collaborators) during demo session
     with TA
-- [ ] Write unit tests for all zodiacs and shios
-- [ ] Implement all zodiacs and shios
-- [ ] Can run unit tests although there is at least one failing unit tests
-- [ ] Can run linter although there are at least one complaints generated
+- [X] Write unit tests for all zodiacs and shios
+- [X] Implement all zodiacs and shios
+- [X] Can run unit tests although there is at least one failing unit tests
+- [X] Can run linter although there are at least one complaints generated
 by the linter
-- [ ] All branches are merged into `master` branch
+- [X] All branches are merged into `master` branch
 
 ## Additional Checklist
 

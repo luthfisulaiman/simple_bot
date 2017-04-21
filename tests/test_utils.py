@@ -117,7 +117,7 @@ class TestZodiac:
         res = zodiac.lookup_zodiac(11, 17)
         assert res != 'libra'
 
-     def test_scorpio_lower_bound(self):
+    def test_scorpio_lower_bound(self):
         res = zodiac.lookup_zodiac(10, 23)
         assert res == 'scorpio'
 
@@ -149,7 +149,7 @@ class TestZodiac:
         res = zodiac.lookup_zodiac(11, 17)
         assert res != 'sagittarius'
 
-     def test_capricorn_lower_bound(self):
+    def test_capricorn_lower_bound(self):
         res = zodiac.lookup_zodiac(12, 22)
         assert res == 'capricorn'
 
