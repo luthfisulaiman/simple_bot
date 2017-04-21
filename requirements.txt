@@ -14,6 +14,7 @@ mccabe==0.3.1
 packaging==16.8
 pep8==1.5.7
 pep8-naming==0.3.3
+pkg-resources==0.0.0
 py==1.4.30
 pyflakes==0.8.1
 pyparsing==2.2.0

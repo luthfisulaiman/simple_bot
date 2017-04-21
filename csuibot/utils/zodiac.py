@@ -3,8 +3,19 @@ from datetime import date
 
 def lookup_zodiac(month, day):
     zodiacs = [
-        Aries()
+        Aries(),
         # Implement the mandatory task in here
+        Taurus(),
+        Gemini(),
+        Cancer(),
+        Leo(),
+        Virgo(),
+        Libra(),
+        Scorpio(),
+        Sagittarius(),
+        Capricorn(),
+        Aquarius(),
+        Pisces()
     ]
 
     for zodiac in zodiacs:
@@ -17,8 +28,16 @@ def lookup_zodiac(month, day):
 def lookup_chinese_zodiac(year):
     num_zodiacs = 12
     zodiacs = {
-        0: 'rat'
+        0: 'rat',
         # Implement the mandatory task in here
+        1 : 'buffalo',
+        2 : 'tiger',
+        3 : 'rabbit',
+        4 : 'dragon',
+        5 : 'snake',
+        6 : 'horse',
+        7 : 'goat',
+        8 : 'monkey'
     }
     ix = (year - 4) % num_zodiacs
 
