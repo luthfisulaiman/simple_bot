@@ -1,5 +1,5 @@
 appdirs==1.4.3
-certifi==2017.1.23
+certifi==2022.12.7
 click==5.1
 colorama==0.3.7
 coverage==4.0.1
